@@ -28,6 +28,10 @@ namespace HashTables
                 }
                 Console.WriteLine("Displaying after add operation");
                 hashTable.Display();
+                string s = "avoidable";
+                hashTable.Remove(s);
+                Console.WriteLine("After removed an item {0}", s);
+                hashTable.Display();
             }
         }
         static void Main(string[] args)
