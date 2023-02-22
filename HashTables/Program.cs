@@ -11,7 +11,8 @@ namespace HashTables
     {
         public static void CountFrequencyOfWords()
         {
-            string paragraph = "To be or not to be";
+            //string paragraph = "To be or not to be";
+            string paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             MyMapNode<string, int> hashTable = new MyMapNode<string, int>(6);
             string[] words = paragraph.ToLower().Split(' ');
 
